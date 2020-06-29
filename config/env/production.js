@@ -140,10 +140,7 @@ module.exports = {
      ***************************************************************************/
     cors: {
       allRoutes: true,
-      allowOrigins: [
-        "http://localhost:3000",
-        "https://simmmplyamit.github.io/",
-      ],
+      allowOrigins: ["http://localhost:3000", "https://simmmplyamit.github.io"],
       allowCredentials: true,
       allowRequestMethods: "GET, POST, PUT, DELETE, OPTIONS, HEAD",
       allowRequestHeaders: "content-type",
